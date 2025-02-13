@@ -42,6 +42,10 @@ function checkMyDate($date):void {
         $month = (int)$matches['month'];
         $day = (int)$matches['day'];
 
+        if ($year < 1){
+            $err[] = 'Год должен быть больше нуля!';
+        }
+
         //проверяем месяц, он должен быть в диапазоне от 1 до 12
         if ($month < 1 || $month > 12) {
             $err[] = 'Номер месяца должен быть в диапазоне от 01 до 12';
