@@ -1,6 +1,3 @@
-<?php
-    include 'header.php';
-?>
 <div class="container">
     <div class="px-4 py-5 my-5 text-center">
         <h2>Проект "Проверятор существования даты"</h2>
@@ -11,5 +8,3 @@
             должен проверить дату на существование и выдать результат.</p>
     </div>
 </div>
-<?php
-include 'footer.php';
